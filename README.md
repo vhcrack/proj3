@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest issue I had while building the app was fixing the functionality of usernames appearing on posts, unfortunately I had encountered an issue where usernames would revert to placeholders or be entirely blank. I ended up having to add a new column to the _Post class and make the act of posting itself add a display name associated with the post to fix the issue, which took a while.
 
 ## License
 
